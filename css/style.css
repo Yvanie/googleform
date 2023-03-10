@@ -496,7 +496,7 @@ h1{
    .nav .fa-bars ~ .main{
     display: inline-block;
    }
-    .nav .fa-bars:hover .main ul{
+    .nav .fa-bars:hover .main{
     display: block;
     }
     .line{

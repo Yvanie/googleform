@@ -1,0 +1,798 @@
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 400 22px/32px "Google Sans",Arial,Sans-Serif;
+}
+p{
+    color: #5f6368;
+    letter-spacing: .2px;
+}
+h1{
+    font-size: 50px;
+}
+
+.line{
+   color: #dadce0;
+   margin-left: 30px;
+   margin-right: 30px;
+}
+.nav .logo {
+    width: 200px;
+    padding-left: 30px;
+}
+.nav{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position: fixed;
+    top: 0;
+    background-color: white;
+    border: 10px white;
+}
+.nav p{
+    padding-top: 20px;
+}
+ .fa-search{
+    padding-top: 40px;
+    padding-left: 70px;
+    padding-right: 40px;
+    color: #5f6368;
+}
+.fa-bars{
+   display: none;
+}
+
+.nav ul li{
+    display: inline-block;
+    padding-top:30px ;
+    padding-left: 20px;
+    padding-right: 10px;
+    position: relative;
+}
+.nav ul li a:hover{
+    color: #1a73e8;
+}
+.nav a{
+    text-decoration: none;
+    list-style: none;
+    color:#5f6368;
+}
+
+.btn4{
+    width: 160px;
+    height: 70px;
+    background: #1a73e8;
+    color: rgb(255, 255, 255);
+    font-size: 15px ;
+    border: 1px solid #1a73e8;
+}
+.nav ul a i{
+    padding-left: 5px;
+}
+.btn4:hover{
+    background-color:rgb(40, 40, 161) ;
+    font-size: 18px rgb(40, 40, 161);
+}
+
+.heading1{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 100px;
+    padding-top: 170px;
+}
+.heading1 .note{
+    padding-left: 150px;
+}
+
+.heading1 .note p{
+    font-size: 20px;
+    color: rgb(66, 66, 68);
+    float: right;
+}
+.heading1 .noteIcon{
+    width: 900px;
+   padding-right: 220px;
+   margin-left: 90px;
+}
+.btn{
+    border: 1px solid rgb(168, 168, 168);
+    padding: 12px 30px;
+    border-radius: 30px;
+    margin-top: 30px;
+    color:black;
+    background-color: white;
+}
+.btn:hover{
+    background-color: black;
+    color: white;
+}
+.heading2{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 30px;
+    margin-right: 30px;
+    padding-right: 10px;
+   padding-bottom: 30px;
+}
+.heading2a{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid rgb(228, 227, 227);
+    padding-top: 20px;
+    padding-left: 20px;
+    margin-right: 10px;
+    padding-bottom: 10px;
+}
+
+.heading2a .creatrip p{
+    padding-top: 20px;
+}
+.heading2a .creatripIcon{
+    width: 500px;
+    padding-left: 45px;
+    padding-top: 50px;
+    padding-right: 120px;
+   
+}
+.heading2b{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid rgb(228, 227, 227);
+    padding-top: 20px;
+    padding-left: 20px;
+    margin-left: 10px;
+   padding-bottom: 30px;
+}
+.heading2b .medaille p{
+    padding-top: 20px;
+    
+}
+.heading2b .medailleIcon{
+    width: 500px;
+    padding-left: 40px;
+    padding-top: 50px;
+    padding-right: 120px;
+
+}
+.heading3{
+    display: flex;
+    padding-left: 200px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+.heading3 .consoleIcon img{
+    width: 200px;
+}
+.heading3 .console p{
+    padding-top: 20px;
+    font-size: 20px;
+}
+.heading3 .console{
+    padding-left: 300px;
+    margin-right: 30px;
+}
+.heading4{
+    display: flex;
+    padding-left: 30px;
+    padding-bottom: 30px;
+    padding-top: 50px;
+}
+.heading4 .programme p{
+    padding-top: 20px;
+    font-size: 20px;
+   
+}
+.heading4 .programmeIcon img{
+    width: 200px;
+    margin-right: 250px;
+    margin-left: 200px;
+   
+}
+.heading5{
+    padding-left: 50px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    padding-right: 50px;
+    margin-right: 10px;
+}
+.heading5 p{
+    padding-top: 20px;
+    font-size: 20px;
+    padding-bottom: 20px;
+   
+}
+.heading5a{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 15px;
+}
+.heading5a .commerce{
+    background-color: rgb(199, 250, 250);
+    padding-left: 20px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-right: 40px;
+    margin-right: 10px;
+    transition: all 300ms ease-in-out;
+}
+.heading5a .commerce:hover{
+    box-shadow:5px 5px 15px 5px #e6e2e2;
+ }
+.heading5a .commerce p{
+   font-size: 16px;
+}
+.heading5a .commerce a{
+    text-decoration: none;
+    list-style: none;
+ }
+
+ .heading5a .API{
+    padding-right: 50px;
+    background-color: rgb(199, 250, 250) ;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-left: 20px;
+    transition: all 300ms ease-in-out;
+}
+.heading5a .API:hover{
+    box-shadow:5px 5px 15px 5px #e6e2e2;
+}
+ .heading5a .API p{
+    font-size: 16px;
+ }
+ .heading5a .API a{
+     text-decoration: none;
+     list-style: none;
+  }
+  .heading5b{
+    display: flex;
+    justify-content: space-between;
+  }
+  .heading5b .Jeux{
+    background-color: rgb(199, 250, 250);
+    padding-left: 20px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-right: 30px;
+    margin-right: 10px;
+    transition: all 300ms ease-in-out;
+  }
+  .heading5b .Jeux:hover{
+    box-shadow:5px 5px 15px 5px #e6e2e2;
+    
+  }
+  .heading5b .Jeux p{
+    font-size: 16px;
+ }
+ .heading5b .Jeux a{
+     text-decoration: none;
+     list-style: none;
+  }
+  .heading5b .information{
+    background-color: rgb(199, 250, 250) ;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 110px;
+    transition: all 300ms ease-in-out;
+  }
+  .heading5b .information:hover{
+    box-shadow:5px 5px 15px 5px #e6e2e2;
+  }
+  .heading5b .information p{
+    font-size: 16px;
+ }
+ .heading5b .information a{
+     text-decoration: none;
+     list-style: none;
+  }
+  .heading6{
+    padding-left: 50px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    padding-right: 50px;
+  }
+  .heading6 p{
+    padding-top: 20px;
+    font-size: 20px;
+    padding-bottom: 20px;
+  }
+  .resources{
+    display: flex;
+    justify-content: space-between;
+  }
+  .resources .guideUtilisation{
+    border: 1px solid rgb(228, 227, 227);
+    padding-left: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 50px;
+    margin-right: 10px;
+    transition: all 300ms ease-in-out;
+  }
+  .resources .guideUtilisation:hover{
+    box-shadow:5px 5px 15px 5px #e6e2e2;
+  }
+  .resources .guideUtilisation p{
+    padding-top: 30px;
+    font-size:16px ;
+    padding-bottom: 30px;
+  }
+  .resources .guideUtilisation a{
+    text-decoration: none;
+    list-style: none;
+    }
+  .resources .playAcademy{
+    border: 1px solid rgb(228, 227, 227);
+    padding-left: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 50px;
+    margin-right: 10px;
+    transition: all 300ms ease-in-out;
+  }
+  .resources .playAcademy:hover{
+    box-shadow:5px 5px 15px 5px #e6e2e2;
+  }
+  .resources .playAcademy p{
+    padding-top: 30px;
+    font-size:16px ;
+    padding-bottom: 30px;
+    }
+    .resources .playAcademy a{
+        text-decoration: none;
+        list-style: none;
+    }
+  .resources .resourceMarketing{
+    border: 1px solid rgb(228, 227, 227);
+    padding-left: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 50px;
+    margin-right: 10px;
+    transition: all 300ms ease-in-out;
+  }
+  .resources .resourceMarketing:hover{
+    box-shadow:5px 5px 15px 5px #e6e2e2;
+  }
+  .resources .resourceMarketing p{
+    padding-top: 30px;
+    font-size:16px ;
+    padding-bottom: 30px;
+}
+.resources .resourceMarketing a{
+    text-decoration: none;
+    list-style: none;
+}
+.reseaux{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 120px;
+    padding-bottom: 20px;
+    padding-top: 50px;
+    padding-right: 100px;
+
+}
+.reseaux ul li{
+    padding-right: 15px;
+    text-decoration: none;
+    display: inline-block;
+    padding-left: 10px;
+}
+.reseaux .inscrire{
+    padding-left: 105px;
+    padding-top: 5px;
+    padding-right: 5px;
+}
+.btn3{
+    border: 1px solid rgb(168, 168, 168);
+    color:black;
+    background-color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.btn3:hover{
+    background-color: black;
+    color: white;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 120px;
+    padding-bottom: 50px;
+    padding-right: 100px;
+    padding-top: 20px;
+}
+.menu ul li{
+    text-decoration: none;
+    list-style: none;
+    display: inline-block;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #5f6368;
+    
+}
+.menu ul li a{
+    list-style: none;
+}
+.menu a{
+    text-decoration: none;
+    list-style: none;
+    color: #5f6369;
+}
+.line1{
+    color: #dadce0;
+    margin-left: 120px;
+    margin-right: 100px;
+}
+.select{
+    padding-top: 10px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(228, 227, 227);
+}
+.nav1{
+    display: none;
+}
+.nav ul li:hover .nav1{
+    display: block;
+    position: absolute;
+    background-color: white;
+    padding-top: 20px;
+    margin: 0;
+    padding: 0;
+   
+}
+.nav12{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+.nav2, .nav3, .nav4{
+    padding-right: 80px;   
+}
+.nav2 ul li{
+    white-space: nowrap;
+}
+.nav3 ul li{
+    white-space: nowrap;
+}
+.nav4 ul li{
+    white-space: nowrap;
+}
+.nav .fa-bars{
+    padding-top: 40px;
+    padding-right: 20px;
+    display: none;
+}
+@media screen and (max-width:600px) {
+
+    .nav{
+        border: 2px white;
+        background-color: rgb(255, 255, 255);
+        padding: 5px 50px 1px;
+        box-shadow: 5px 5px 2px transparent;
+    }
+   .nav .main {
+    padding-top: 20px;
+    position: absolute;
+    display: none;
+   }
+   .nav .main ul{
+    display: block; 
+   }
+   .nav .main ul li{
+    background-color: #fff;
+    width: 100%;
+   }
+   .nav .fa-bars ~ .main{
+    display: inline-block;
+   }
+    .nav .fa-bars:hover .main ul{
+    display: block;
+    }
+    .line{
+        color: #dadce0;
+        margin-left: 20px;
+        margin-right: 40px;
+     }
+    
+    .nav ul{
+        display: none;
+    }
+    .nav{
+        display: flex;
+    }
+   .btn4{
+    display: none;
+   }
+    .nav .fa-search{
+        margin-left: 40px;
+        display: block;
+    }
+    .nav .logo {
+    margin-top: -8px;
+    margin-left: -30px;
+    }
+    .nav .fa-bars{
+        display: block;
+    }
+    .container{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    .heading1{
+       margin-left: -120px;
+       display: flex;
+       flex-direction: column;
+      
+    }
+   .heading1 .note h1{
+    margin-top: -25px;
+    padding-top: -10px;
+    font-size: 30px;
+    margin-left: -10px;
+   }
+   .heading1 .note p{
+    font-size: 22px;
+    margin-left: -10px;
+    color: #5f6368;
+}
+   .heading1 .noteIcon{
+    padding-top: 10px;
+    margin-left: 220px;
+    width: 400px;
+   }
+   .heading2{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+   }
+    .heading2a{
+    display: flex;
+    flex-direction: column-reverse;
+    margin-left: -5;
+    margin-bottom: 30px;
+   }
+   .heading2a .creatripIcon{
+    margin-top: -60px;
+    width: 400px;
+    margin-left: 2px;
+    margin-right: 20px;
+   }
+   .heading2a .creatrip{
+    padding-top:10px;
+    margin-left: -3px;
+    padding-right: 5px;
+    margin-right: 5px;
+   
+   }
+   .heading2a .creatrip h2{
+    font-size: 20px;
+    margin-right: -10px;
+   }
+
+   .heading2b{
+    display: flex;
+    flex-direction: column-reverse;
+    margin-left: -5;
+    margin-bottom: 30px;
+   }
+   .heading2b .medailleIcon{
+    margin-top: -40px;
+    width: 400px;
+    margin-left: 2px;
+    margin-bottom: 30px;
+    
+   }
+   .heading2b .medaille h2{
+    font-size: 20px;
+    margin-right: -10px;
+   }
+   .heading2b .medaille .btn{
+    margin-top: -10px;
+   }
+ 
+   .heading3{
+    display: flex;
+    flex-direction: column;
+    margin-left: -100;
+   }
+   .heading3 .consoleIcon{
+   padding-left: 10px;
+   padding-right: 10px;
+   }
+   .heading3 .console{
+    margin-left: -380px;
+    padding-top: 20px;
+   }
+   .heading3 .console h1{
+    font-size: 25px;
+   }
+   .heading3 .console p{
+    font-size: 18px;
+   }
+   .heading4{
+    display: flex;
+    flex-direction: column-reverse;
+   }
+   .heading4 .programmeIcon img{
+   margin-left: 130px;
+   padding-bottom: 30px;
+   width: 150px;
+   }
+   .heading4 .programme h1{
+   font-size: 25px;
+   }
+   .heading4 .programme p{
+    font-size: 18px;
+    }
+    .heading5{
+        display: flex;
+        flex-direction: column;
+        padding-left: 20px;
+        padding-right:2px;
+    }
+    .heading5 h1{
+        font-size: 25px;
+    }
+    .heading5 p{
+        font-size: 18px;
+        padding-left: 2px;
+        margin-left: -10px;
+    }
+    .heading5 .heading5a{
+        display: flex;
+        flex-direction: column;
+    }
+    .heading5a .commerce{
+        margin-bottom: 15px;
+        padding-left: 10px;
+        margin-left: -5px;
+    }
+    .heading5a .commerce h2{
+        font-size: 18px;
+    }
+    .heading5a .commerce p{
+        font-size: 15px;
+    }
+    .heading5a .commerce:hover{
+        display: none;
+    }
+    .heading5a .API{
+        padding-left: 10px;
+        margin-left: -5px;
+        margin-right: 10px;
+    }
+    .heading5a .API h2{
+        font-size: 18px;
+    }
+    .heading5a .API p{
+        font-size: 15px;
+    }
+    .heading5a .API:hover{
+        display: none;
+    }
+    .heading5 .heading5b{
+        display: flex;
+        flex-direction: column;
+    }
+    .heading5b .Jeux{
+        margin-bottom: 15px;
+        padding-left: 10px;
+        margin-left: -5px;
+        margin-right: 10px;
+    }
+    .heading5a .Jeux h2{
+        font-size: 18px;
+    }
+    .heading5a .Jeux p{
+        font-size: 15px;
+    }
+    .heading5b .Jeux:hover{
+        display: none;
+    }
+    .heading5b .information{
+        margin-bottom: 10px;
+        padding-left: 10px;
+        margin-left: -5px;
+        margin-right: 10px;
+    }
+    .heading5a .information h2{
+        font-size: 18px;
+    }
+    .heading5a .information p{
+        font-size: 15px;
+    }
+    .heading5b .information:hover{
+        display: none;
+    }
+    .heading6 {
+        padding-left: 20px;
+        padding-right: 13px;
+    }
+    .heading6 h1{
+        font-size: 25px;
+    }
+    .heading6 p{
+        font-size: 18px;
+    }
+    .heading6 .resources{
+        display: flex;
+        flex-direction: column;
+    }
+    .resources .guideUtilisation{
+        margin-bottom: 15px;
+    }
+    .resources .guideUtilisation:hover{
+        display: none;
+    }
+    .resources .playAcademy{
+        margin-bottom: 15px;
+    }
+    .resources .playAcademy:hover{
+        display: none;
+    }
+    .resources .resourceMarketing:hover{
+        display: none;
+    }
+    .reseaux{
+        display: flex;
+        
+        flex-direction: column;
+        padding-left: 10px;
+        padding-top: 5px;
+    }
+    .reseaux .icons{
+        padding-top: 20px;
+        padding-left: 15px;
+        letter-spacing: 2px;
+        font-size: 20px;
+    }
+    .reseaux .inscrire{
+        padding-top: 20px;
+        padding-left: 10px;
+        margin-right: -65px;
+        margin-bottom: 20px;
+    }
+    .reseaux .btn3{
+      margin-left: 10px;
+      margin-right: 230px;
+    }
+    .line1{
+        margin-top: 20px;
+        margin-left: -50px;
+        margin-right: -50px;
+    }
+    .menu{
+        display: flex;
+        flex-direction: column;
+        padding-left: 10px;
+        justify-content: space-between;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .menu .list{
+        padding-top: 20px;
+        justify-content: space-between;
+        font-size: 18px;
+        padding-bottom: 20px;
+    }
+    .menu p{
+        margin-top: 30px;
+    }
+    .menu .select{
+        margin-left: 90px;
+        margin-right: 10px;
+        position: static;
+    }
+}
